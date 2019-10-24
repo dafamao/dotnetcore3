@@ -7,6 +7,15 @@
         "build": {
           "build/BuildBundlerMinifier.targets": {}
         }
+      },
+      "Microsoft.AspNetCore.Razor.Language/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
+        }
       }
     }
   },
@@ -32,31 +41,45 @@
         "tools/netstandard1.3/NUglify.dll",
         "tools/netstandard1.3/Newtonsoft.Json.dll"
       ]
+    },
+    "Microsoft.AspNetCore.Razor.Language/3.0.0": {
+      "sha512": "qmd93zdlivR1yCrYDl3rirLGy6+2iRxLosVfxq6SWmSi/jg5Rm0r+Pbir43gAnyw461d7vD+32riT1QHQZzjVw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.razor.language/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.xml",
+        "microsoft.aspnetcore.razor.language.3.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.razor.language.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "BuildBundlerMinifier >= 3.1.430"
+      "BuildBundlerMinifier >= 3.1.430",
+      "Microsoft.AspNetCore.Razor.Language >= 3.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RainF\\.nuget\\packages\\": {},
+    "C:\\Users\\11926\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnetcore3\\New_Three.csproj",
+      "projectUniqueName": "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj",
       "projectName": "New_Three",
-      "projectPath": "D:\\dotnetcore3\\New_Three.csproj",
-      "packagesPath": "C:\\Users\\RainF\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnetcore3\\obj\\",
+      "projectPath": "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj",
+      "packagesPath": "C:\\Users\\11926\\.nuget\\packages\\",
+      "outputPath": "D:\\CoreProject\\New_Three\\New_Three\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\RainF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\11926\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -83,6 +106,10 @@
           "BuildBundlerMinifier": {
             "target": "Package",
             "version": "[3.1.430, )"
+          },
+          "Microsoft.AspNetCore.Razor.Language": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           }
         },
         "imports": [

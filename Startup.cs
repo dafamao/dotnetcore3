@@ -22,10 +22,13 @@ namespace New_Three
 
             //services.AddSingleton<IClock, ChinaClock>();
             services.AddSingleton<IClock, UtcClock>();
+
+            services.AddSingleton<IDepartmentService, DepartmentService>();
+            services.AddSingleton<IEmployeeService, EmployeeService>();
         }
 
         //针对开发环境配置方法
-        public void ConfigureDevelopment(IApplicationBuilder app, IWebHostEnvironment env) { }
+        //public void ConfigureDevelopment(IApplicationBuilder app, IWebHostEnvironment env) { }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -53,7 +56,7 @@ namespace New_Three
             {
                 endpoints.MapControllerRoute(
                     name:"default",
-                    pattern:"{controller=home}/{action=index}/{id?}"
+                    pattern:"{controller=Department}/{action=Index}/{id?}"
                     );
                 //原来的
                 //endpoints.MapGet("/", async context =>

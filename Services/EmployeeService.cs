@@ -98,7 +98,7 @@ namespace New_Three.Services
 
         public Task<IEnumerable<Employee>> GetByDepartmentId(int departmentId)
         {
-            return Task.Run(() => _employees.AsEnumerable());
+            return Task.Run(() => _employees.Where(x=>x.DepartmentId==departmentId).AsEnumerable());
         }
     }
 }

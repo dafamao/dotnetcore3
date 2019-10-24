@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.1.430" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

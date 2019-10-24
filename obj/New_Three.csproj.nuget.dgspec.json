@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnetcore3\\New_Three.csproj": {}
+    "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj": {}
   },
   "projects": {
-    "D:\\dotnetcore3\\New_Three.csproj": {
+    "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetcore3\\New_Three.csproj",
+        "projectUniqueName": "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj",
         "projectName": "New_Three",
-        "projectPath": "D:\\dotnetcore3\\New_Three.csproj",
-        "packagesPath": "C:\\Users\\RainF\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetcore3\\obj\\",
+        "projectPath": "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj",
+        "packagesPath": "C:\\Users\\11926\\.nuget\\packages\\",
+        "outputPath": "D:\\CoreProject\\New_Three\\New_Three\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\RainF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\11926\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,10 @@
             "BuildBundlerMinifier": {
               "target": "Package",
               "version": "[3.1.430, )"
+            },
+            "Microsoft.AspNetCore.Razor.Language": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
