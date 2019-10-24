@@ -40,23 +40,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\11926\\.nuget\\packages\\": {},
+    "C:\\Users\\RainF\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj",
+      "projectUniqueName": "D:\\dotnetcore3\\New_Three.csproj",
       "projectName": "New_Three",
-      "projectPath": "D:\\CoreProject\\New_Three\\New_Three\\New_Three.csproj",
-      "packagesPath": "C:\\Users\\11926\\.nuget\\packages\\",
-      "outputPath": "D:\\CoreProject\\New_Three\\New_Three\\obj\\",
+      "projectPath": "D:\\dotnetcore3\\New_Three.csproj",
+      "packagesPath": "C:\\Users\\RainF\\.nuget\\packages\\",
+      "outputPath": "D:\\dotnetcore3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\11926\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RainF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

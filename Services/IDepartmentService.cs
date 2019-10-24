@@ -10,6 +10,7 @@ namespace New_Three.Services
     {
         Task<IEnumerable<Department>> GetAll();
         Task<Department> GetById(int id);
-        Task<CompanySummary>
+        Task<CompanySummary> GetCompanySummary();
+        Task Add(Department department);
     }
 }
