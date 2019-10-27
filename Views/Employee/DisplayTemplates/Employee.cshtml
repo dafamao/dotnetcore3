@@ -1,0 +1,17 @@
+﻿@model New_Three.Models.Employee
+
+    <tr>
+        <td>@Model.FirstName</td>
+        <td>@Model.LastName</td>
+        <td>@Model.Gender</td>
+        <td>@(Model.Fired?"是":"")</td>
+
+        <td>
+            @if (!Model.Fired)
+            {
+                <a asp-action="Fire" asp-route-employeeid="@Model.Id">
+                    Fire
+                </a>
+            }
+        </td>
+    </tr>

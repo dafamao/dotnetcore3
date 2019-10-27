@@ -1,1 +1,20 @@
-﻿
+﻿@using New_Three.Models
+@model IEnumerable<Department>
+    <div class="row">
+        <div class="col-md-10 offset-md-2">
+            <table class="table">
+                <tr>
+                    <td>Name</td>
+                    <td>Location</td>
+                    <td>Employee</td>
+                    <td>操作</td>
+                </tr>
+                @Html.DisplayForModel();
+            </table>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-md-4 offset-md-2">
+            <a asp-action="Add">Add</a>
+        </div>
+    </div>

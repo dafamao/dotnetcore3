@@ -33,3 +33,7 @@ D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\New_Three.MvcApplicat
 D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\Razor\Views\Department\Index.cshtml.g.cs
 D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\New_Three.Views.pdb
 D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\New_Three.csproj.CopyComplete
+D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\Razor\Views\Department\DisplayTemplates\Department.cshtml.g.cs
+D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\Razor\Views\Employee\DisplayTemplates\Employee.cshtml.g.cs
+D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Index.cshtml.g.cs
+D:\CoreProject\New_Three\New_Three\obj\Debug\netcoreapp3.0\Razor\Views\Department\Add.cshtml.g.cs

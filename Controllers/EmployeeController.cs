@@ -21,7 +21,7 @@ namespace New_Three.Controllers
         public async Task<IActionResult> Index(int departmentId)
         {
             var department = await _departmentService.GetById(departmentId);
-            ViewBag.Title = $"Employees of{department.Name}";
+            ViewBag.Title = $"Employees of {department.Name}";
             ViewBag.DepartmentId = departmentId;
             var employees = await _employeeService.GetByDepartmentId(departmentId);
             return View(employees);
